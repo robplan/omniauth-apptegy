@@ -9,7 +9,7 @@ module OmniAuth
 
       # This is where you pass the options you would pass when
       # initializing your consumer from the OAuth gem.
-      option :client_options, {:site => "https://localhost"}
+      option :client_options, {:site => "http://localhost"}
       
       # You may specify that your strategy should use PKCE by setting
       # the pkce option to true: https://tools.ietf.org/html/rfc7636
